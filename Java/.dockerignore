@@ -1,0 +1,10 @@
+target/
+*.class
+*.jar
+*.log
+.git
+.gitignore
+.idea
+*.iml
+.vscode
+tmpclaude-*
