@@ -1,0 +1,147 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e9ecef;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #495057;
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.card.info {
+  background: #e7f3ff;
+  border-color: #b6d4fe;
+}
+
+.card.info h3 {
+  margin-top: 0;
+  color: #0a58ca;
+}
+
+.card.info ul {
+  text-align: left;
+  padding-left: 1.5rem;
+  color: #495057;
+}
+
+.card.info li {
+  margin-bottom: 0.5rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.input-group input {
+  width: 100px;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.button-group {
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-start {
+  background: #198754;
+  color: white;
+}
+
+.btn-start:hover:not(:disabled) {
+  background: #157347;
+}
+
+.btn-stop {
+  background: #dc3545;
+  color: white;
+}
+
+.btn-stop:hover {
+  background: #bb2d3b;
+}
+
+.btn-server {
+  background: #0d6efd;
+  color: white;
+  width: 100%;
+}
+
+.btn-server:hover:not(:disabled) {
+  background: #0b5ed7;
+}
+
+.progress-container {
+  background: #e9ecef;
+  border-radius: 4px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #198754, #20c997);
+  height: 100%;
+  transition: width 0.1s linear;
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  color: #333;
+  font-size: 0.85rem;
+}
