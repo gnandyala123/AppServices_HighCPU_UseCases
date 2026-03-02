@@ -1,0 +1,5 @@
+# Don't copy Windows/IIS-specific files into the Linux container image
+web.config
+README.md
+.git
+*.zip

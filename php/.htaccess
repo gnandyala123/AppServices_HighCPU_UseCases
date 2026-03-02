@@ -1,0 +1,12 @@
+# Azure App Service (Linux) — Apache / PHP override
+# Removes script timeout so stress tests can run their full duration
+
+php_value max_execution_time 600
+php_value memory_limit 256M
+
+# Disable output buffering so progress streams to browser
+php_value output_buffering Off
+php_value implicit_flush On
+
+# Direct all traffic to index.php when no file matches
+DirectoryIndex index.php
